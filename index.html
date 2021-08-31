@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mac book Pro</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <main class="container">
+        <div class="row border-bottom-grey pb-8">
+            <!-- left section for image -->
+            <section class="img-section">
+                <div class="img_wrapper">
+                    <img class="img" src="images/mac.png" alt="Mac book Pro Photo">
+                </div>
+            </section>
+            <!-- right section for content -->
+            <section class="content-section">
+                <header>
+                    <h1>Customize your blue 24-inch iMac with Apple M1 chip</h1>
+                    <p>Apple M1 chip with 8-core CPU with 4 performance cores and efficency cores, 7-core GPU, and
+                        16-core Neural Engine 8GB unified memory 256GB SSd storage Two Thunderbolt / USB 4 ports Magic
+                        Mouse keyboard- US English</p>
+                </header>
+                <section class="memory">
+                    <h2>Memory</h2>
+                    <div id="memory-part">
+                        <button id="8gb-memory">8GB unified memory </button>
+                        <button id="16gb-memory">16GB unified memory </button>
+                    </div>
+                </section>
+                <section class="storage">
+                    <h2>storage</h2>
+                    <div id="storage-part">
+                        <button id="256gb-storage">256GB SSD storage </button>
+                        <button id="512gb-storage">512GB SSD storage </button>
+                        <button id="1tb-storage">1TB SSD storage </button>
+                    </div>
+                </section>
+                <section class="delivery">
+                    <h2>Choose your delivery option</h2>
+                    <div id="delivery-part">
+                        <button id="free-delivery">Friday, Aug 25 Free Prime Delivery</button>
+                        <button id="fast-delivery">Friday, Aug 21 Delivery charge $20</button>
+                    </div>
+                </section>
+                <!-- calculation part start  -->
+                <section class="calc-section">
+                    <div class="row space-between border-bottom-grey">
+                        <h2>Best price</h2>
+                        <h2>$<span id="best-price">1299</span></h2>
+                    </div>
+                    <div class="row space-between border-bottom-grey">
+                        <h2>Extra Memory cost</h2>
+                        <h2>$<span id="memory-price">0</span></h2>
+                    </div>
+                    <div class="row space-between border-bottom-grey">
+                        <h2>Extra storage cost</h2>
+                        <h2>$<span id="storage-price">0</span></h2>
+                    </div>
+                    <div class="row space-between border-bottom-black">
+                        <h2>Delivery charge</h2>
+                        <h2>$<span id="delivery-price">0</span></h2>
+                    </div>
+                    <div class="row space-between border-bottom-grey">
+                        <h2>Total price</h2>
+                        <h2>$<span id="total-price">1299</span></h2>
+                    </div>
+                </section>
+                <!-- calculation part end  -->
+                <!-- promotion section start  -->
+                <section class="promo-section my-8">
+                    <input id="promo-input" type="text" class="form-control">
+                    <button id="promo-btn" class="btn-red">Apply</button>
+                </section>
+                <!-- promotion section end  -->
+            </section>
+        </div>
+        <!-- total section  -->
+        <div class="total">
+            <h2 class="text-center">Total:$<span id="total-with-promo">1299</span></h1>
+        </div>
+    </main>
+    <!-- adding script for javascript file  -->
+    <!-- <script src="js/script.js"></script> -->
+    <script src="js/practice.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,72 @@
+/* common css   */
+body{
+    font-size: 14px;
+    background-color: beige;
+    padding:0;
+}
+
+.container{
+    width:1024px;
+    background-color: #fff;
+    margin:0 auto;
+    padding:24px;
+}
+.row{
+    display: flex;
+}
+.pb-8{
+    padding-bottom:25px;
+}
+.my-8{
+    margin:20px 0;
+}
+.form-control{
+    line-height: 20px;
+    padding:10px 5px;
+}
+.active{
+    border:none;
+    outline:1px solid rgba(0,0,255,.4);
+}
+/* image section start  */
+.img-section{
+    width: 45%;
+}
+.img-wrapper{
+    width:100%;
+}
+.img{
+    width: 80%;
+}
+/* image section end  */
+.content-section{
+    width:45%
+}
+/* calculation part start  */
+.calc-section{
+    margin-top:30px;
+    font-size: 10px;
+    width: 50%;
+}
+.space-between{
+    justify-content: space-between;
+}
+.border-bottom-grey{
+    border-bottom: 1px solid #ddd;
+}
+.border-bottom-black{
+    border-bottom:2px solid #555;
+}
+/* calculation part end  */
+/* promo section  */
+.btn-red{
+    background-color: rgba(255,0,0,.7);
+    border-radius: 5px;
+    line-height: 20px;
+    color:white;
+    padding:10px 20px;
+}
+/* total part  */
+.text-center{
+    text-align: center;
+}
